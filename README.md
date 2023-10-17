@@ -1,5 +1,5 @@
 <pre>
-<h2> Find >/h2>
+<h2> Find </h2>
 
 find /path/to/dir/ -printf '%s %p\n'| sort -nr | head -10
 find . -printf '%s %p\n'| sort -nr | head -10
