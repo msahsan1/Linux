@@ -1,6 +1,7 @@
 <pre>
 <h2> Find >/h2>
-ind /path/to/dir/ -printf '%s %p\n'| sort -nr | head -10
+
+find /path/to/dir/ -printf '%s %p\n'| sort -nr | head -10
 find . -printf '%s %p\n'| sort -nr | head -10
 
 du -hs * | sort -h | more
